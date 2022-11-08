@@ -37,10 +37,15 @@
                      <span>Create</span>
                      <i class="bi bi-plus-circle"></i>
                   </button>
+                  <button class="btn btn-success fw-bold" id="updateBtn">
+                     <span>Save</span>
+                     <i class="bi bi-check"></i>
+                  </button>
                </div>
             </form>
          </div>
          <div class="col-lg-8 offset-lg-2 mt-4">
+            <h1 class="fw-bold">TODO</h1>
             <div class="table-responsive">
                <table class="table table-hover table-bordered text-center">
                   <thead>
@@ -54,7 +59,24 @@
                         <th>Update</th>
                      </tr>
                   </thead>
-                  <tbody></tbody>
+                  <tbody id="todo"></tbody>
+               </table>
+            </div>
+         </div>
+         <div class="col-lg-8 offset-lg-2 mt-4">
+            <h1 class="fw-bold">SUCCESS TODO</h1>
+            <div class="table-responsive">
+               <table class="table table-hover table-bordered text-center">
+                  <thead>
+                     <tr>
+                        <th>Car Name</th>
+                        <th>Car Model</th>
+                        <th>Car Year</th>
+                        <th>Created At</th>
+                        <th>Delete</th>
+                     </tr>
+                  </thead> 
+                  <tbody id="success-todo"></tbody>
                </table>
             </div>
          </div>
